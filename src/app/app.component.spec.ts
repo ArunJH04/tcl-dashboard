@@ -19,7 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'tcl-dashboard'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('tcl-dashboard');
   });
 
   it('should render title', () => {
